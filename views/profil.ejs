@@ -16,6 +16,12 @@
     <p>Tidak ada data hobi.</p>
   <% } %>
 
+  <h3>Tambah Hobi Baru</h3>
+  <form action="/tambah-hobi" method="POST">
+    <input type="text" name="hobiBaru" placeholder="Masukkan hobi baru" required>
+    <button type="submit">Tambah</button>
+  </form>
+  
   <a href="/">Kembali ke Home</a>
 
   <%- include('partials/footer') %>
